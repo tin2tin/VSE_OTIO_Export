@@ -1,5 +1,5 @@
 # VSE_OTIO_Export
-Export from the Blender Video Sequence Editor(VSE) using [OpenTimelineIO](https://github.com/PixarAnimationStudios/OpenTimelineIO) to many formats, including aaf, fcpxml, cms 3600 edl, kdenlive, otio etc. 
+Export from the Blender Video Sequence Editor(VSE) using [OpenTimelineIO](https://github.com/PixarAnimationStudios/OpenTimelineIO) to many formats, including aaf, fcpxml, cmx 3600 edl, kdenlive, otio etc. 
 
 ## Installation:
 OTIO module needs to be installed.
