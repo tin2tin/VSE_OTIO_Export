@@ -9,6 +9,9 @@ https://blenderartists.org/t/pip-for-blender/1259938
 For Windows it's a bit more complicated, but @Celeborn2BeAlive found a way:
 https://github.com/PixarAnimationStudios/OpenTimelineIO/issues/667#issuecomment-732507206
 
+(I'm mirrored @Celeborn2BeAlive's OTIO wheel for Windows [here](https://github.com/tin2tin/VSE_OTIO_Export/raw/main/OpenTimelineIO-0.13.0-cp37-cp37m-win_amd64.whl). Install after download like this: 
+`"...blendersomething\\2.92\\python\\bin\\python.EXE" -m pip install "C:\\Users\\XXXX\\Downloads\\OpenTimelineIO-0.13.0-cp37-cp37m-win_amd64.whl" --user` )
+
 After that install the VSE_OTIO_Export add-on in Blender and find the option in the Export menu.
 
 ## Warning
