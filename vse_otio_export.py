@@ -205,7 +205,7 @@ class EXPORT_OT_video_sequence_editor(Operator, ExportHelper):
 
 
 def menu_func_export(self, context):
-    self.layout.operator(EXPORT_OT_video_sequence_editor.bl_idname, text="Video Sequence Editor")
+    self.layout.operator(EXPORT_OT_video_sequence_editor.bl_idname, text="Video Editing(.otio, .edl, .fcpxml, .aaf)")
 
 
 def register():
