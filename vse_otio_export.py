@@ -13,11 +13,28 @@ bl_info = {
 import bpy
 import os
 import sys
-import opentimelineio as otio
+import site
+import subprocess
 
 from bpy_extras.io_utils import ExportHelper
 from bpy.props import StringProperty, BoolProperty, EnumProperty
 from bpy.types import Operator
+
+app_path = site.USER_SITE
+if app_path not in sys.path:
+    sys.path.append(app_path)
+
+pybin = sys.executable  # bpy.app.binary_path_python # Use for 2.83
+
+try:
+    subprocess.call([pybin, "-m", "ensurepip"])
+except ImportError:
+    pass
+try:
+    import opentimelineio as otio
+except ImportError:
+    subprocess.check_call([pybin, "-m", "pip", "install", "opentimelineio"])
+    import opentimelineio as otio
 
 
 TRACK_TYPES = {
