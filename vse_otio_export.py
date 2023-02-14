@@ -151,7 +151,7 @@ def _create_ot_timeline(output_path, output_type):
                     tl_item.type == "SOUND" and track_type.upper() == "AUDIO"
                 ):
                     index = index + 1
-                    clip_start = tl_item.frame_final_start
+                    clip_start = int(tl_item.frame_final_start)
 
                     if clip_start > ot_track.available_range().duration.value:
                         ot_track.append(
