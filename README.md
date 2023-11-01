@@ -10,7 +10,10 @@ On Windows Blender must be "Run as Administrator" for the Python dependencies to
 
 ## Not Working (uncommented code)
 - OTIO does have various adaptors for various formats, but they're currently not working.
-- Transitions 
+- Transitions
+
+## Useful Add-on:
+For cleaning up and organizing the timeline: https://github.com/tin2tin/Arrange_Sequence
 
 ## Location
 View Menu > Export Timeline (.otio)
