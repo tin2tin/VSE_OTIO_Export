@@ -17,7 +17,8 @@ On Windows Blender must be "Run as Administrator" for the Python dependencies to
 
 ## Useful Add-on:
 For cleaning up and organizing the timeline: https://github.com/tin2tin/Arrange_Sequence
-Convert any strip(ex. Scene strips) to a rendered movie strip: https://github.com/tin2tin/Add_Rendered_Strips
+
+Conform. Render any strip(ex. Scene strips) to a trimmed movie strip: https://github.com/tin2tin/Add_Rendered_Strips
 
 ## Location
 View Menu > Export Timeline (.otio)
